@@ -1,0 +1,77 @@
+/* Menentukan font yang akan di pakai */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+
+    /* Define font family */
+    font-family: 'Pixelify Sans', cursive;
+    background-color: #a2d2ff;
+
+    /* define the layout */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: #a2d2ff;
+
+    /* Menentukan lebar container */
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    padding: 50px 0px 100px 0px;
+
+    /* define the layout */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+   /* set the image profile */
+   .img-container img {
+    width: 150px;
+    border-radius: 50%;
+}
+.title-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    color: #f1f1f1;
+}
+
+.link-item {
+    width: 100%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: aliceblue;
+    color: #4a4e69;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    margin: 3px 8px;
+    width: 44px;
+    height: 44px;
+}
+
+.link-item p {
+    margin-right: 60px;
+}
+
+.link-item:hover {
+    transform: scale(1.02);
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+
+    background-color: #4a4e69 rgb(72, 66, 66);
+}
